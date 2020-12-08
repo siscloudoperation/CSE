@@ -121,4 +121,3 @@ templates:
     cni_version: "2.7.0"
     upgrade_from:
       - "ubuntu-16.04_k8-1.18_weave-2.6.5"
-  -
