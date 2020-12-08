@@ -101,3 +101,24 @@ templates:
     cni_version: "2.5.2"
     upgrade_from:
       - "photon-v2_k8-1.14_weave-2.5.2"
+  -
+    compute_policy: ""
+    cpu: 2
+    deprecated: false
+    description: "Ubuntu 18.04, Docker-ce 19.03.13, Kubernetes 1.19.0, weave 2.7.0"
+    mem: 2048
+    name: ubuntu-18.04_k8-1.19_weave-2.7.0
+    revision: 1
+    kind: native
+    sha256_ova: fb1ce4c45c045cbf36f56c0bec79e4b054f727163f15c8e70557d3ba4e1682e2
+    source_ova: "https://cloud-images.ubuntu.com/releases/bionic/release-20201111/ubuntu-18.04-server-cloudimg-amd64.ova"
+    source_ova_name: ubuntu-18.04-server-cloudimg-amd64.ova
+    os: "ubuntu-18.04"
+    docker_version: "19.03.13"
+    kubernetes: "upstream"
+    kubernetes_version: "1.19.0"
+    cni: "weave"
+    cni_version: "2.7.0"
+    upgrade_from:
+      - "ubuntu-16.04_k8-1.18_weave-2.6.5"
+  -
